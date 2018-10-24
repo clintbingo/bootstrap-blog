@@ -1,0 +1,8 @@
+.post-body {
+  height: 400px;
+  overflow-y: auto;
+}
+.tooltip-show {
+  cursor: help;
+  border-bottom: 1px dotted #222;
+}

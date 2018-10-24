@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- meta, and other stuff... -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- other styles -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <!-- content... -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-md" role="navigation">
+  	<div class="container">
+  		<a class="navbar-brand" href="index.html">Personal Site</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#globalNav" aria-controls="globalNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  		<div class="collapse navbar-collapse" id="globalNav">
+	  		<ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+      </ul>
+		</div>
+  	</div>
+</nav>
+<main class="container mt-3">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Blog</a></li>
+      <li class="breadcrumb-item"><a href="#">Category Name</a></li>
+      <li class="breadcrumb-item active" aria-current="page">My First Post</li>
+    </ol>
+  </nav>
+  <article class="clearfix">
+    <h1>My First Post</h1>
+    <section class="my-1">
+    <span class="badge badge-pill badge-primary">html5</span>
+    <span class="badge badge-pill badge-success">ux</span>
+    <span class="badge badge-pill badge-info">beginner</span>
+  </section>
+    <p class="text-muted">3 days ago by <a href="#">admin</a></p>
+
+    <p class="lead border-bottom pb-3">Some summary goes here...</p>
+
+  <div class="row">
+    <div class="col-8">
+      <section data-spy="scroll" data-target="#post-index" data-offset="0" class="post-body">
+        <h2 id="section-0">Introduction</h2>
+        <img src="https://via.placeholder.com/600x250" class="rounded mx-auto d-block mb-2">
+    <p>
+      <em data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="tooltip-show">Lorem ipsum dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <h2 id="section-1">Header lvl 2</h2>
+
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <ul>
+      <li>Point 1</li>
+      <li>Point 2</li>
+      <li>Point 3</li>
+    </ul>
+
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <h3 id="section-2">Header lvl 3</h3>
+
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <h2 id="section-3">Header lvl 2</h2>
+
+    <p>
+      <img src="https://via.placeholder.com/200x200" class="img-thumbnail float-left mr-3">
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    </section>
+    </div>
+    <div class="col-4">
+      <nav id="post-index" class="navbar navbar-light bg-light">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#section-0">Top-level header</a>
+          <a class="nav-link" href="#section-1">Header lvl-2</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ml-3 my-1" href="#section-2">Header lvl-3</a>
+          </nav>
+          <a class="nav-link" href="#section-3">Header lvl-2</a>
+        </nav>
+        
+      </nav>
+     </div>
+    </div>
+  </article>
+</main>
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">&copy; 2018 My Personal Site LLC.</span>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
